@@ -1,6 +1,6 @@
 # Canny's Edge Detector
-This is an implementation of Canny's Edge Detector which does not use prebuilt libraries for 
-The Canny’s Edge Detector consists of four steps:  
+This is an open source implementation of the Canny Edge Detector.   
+The Canny Edge Detector consists of four steps:  
 • Gaussian smoothing  
 • Gradient operation  
 • Non-maxima suppression  
