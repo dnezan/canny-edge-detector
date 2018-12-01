@@ -20,7 +20,7 @@ the image border, the output pixel is set to 0. Note that the
 sum of the entries in the Gaussian mask do not sum to 1. After performing convolution (or crosscorrelation),
 normalization is performed by dividing the result by the sum of the entries
 (= 140 for the given mask) at each pixel location.  
-![gaussian](https://raw.githubusercontent.com/dnezan/cannyedgedetector/master/img/mask.png)    
+![gaussian](https://raw.githubusercontent.com/dnezan/canny-edge-detector/master/output/mask.png)    
 
 ### Gradient Operation
 The Prewitt’s operator is used for gradient operation. If part of the 3 x 3 masks of the Prewitt’s operator lies in
