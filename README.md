@@ -2,13 +2,13 @@
 
 # Canny's Edge Detector
 This is an implementation of Canny's Edge Detector which does not use prebuilt libraries for 
-The Canny’s Edge Detector consists of four steps: 
+The Canny’s Edge Detector consists of four steps:  
 • Gaussian smoothing  
 • Gradient operation  
 • Non-maxima suppression  
 • Thresholding  
 
-The input to your program is a grayscale image of
+The input to the program is a grayscale image of
 size N X M. Use the 7 x 7 Gaussian mask as shown below (on page 2) for smoothing the input
 image. Use the center of the mask as the reference center. If part of the Gaussian mask goes outside of
 the image border, let the output image be undefined at the reference center’s location. Note that the
@@ -23,3 +23,5 @@ no edge). Use simple thresholding in the fourth step but use the P-tile method t
 ### How to compile and run the program
 The only libraries used in this program is PIL and scipy in order to read and write the image, numpy in order to save the 0-255 value of each pixel location, and math to compute the square root. No other libraries or in built functions are required for any operation including convolution. 
 
+###Functions
+##Gaussian Smoothening
