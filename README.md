@@ -20,8 +20,8 @@ the undefined region of the image after Gaussian filtering, set the output value
 no edge). Use simple thresholding in the fourth step but use the P-tile method to set the threshold T
 (described below.)
 
-### How to compile and run the program
+## How to compile and run the program
 The only libraries used in this program is PIL and scipy in order to read and write the image, numpy in order to save the 0-255 value of each pixel location, and math to compute the square root. No other libraries or in built functions are required for any operation including convolution. 
 
-### Functions
-## Gaussian Smoothening
+## Functions
+### Gaussian Smoothening
